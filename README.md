@@ -3,7 +3,7 @@
 Las componentes del equipo, y por tanto autoras de estos juegos son:
 - Carlota Gómez Martínez.
 - Katherine Gortz Rogers.
-- Tahiera Jafari.
+- Tahiera Jafari.-
 - Lucía Nozal Benito.
 
 Los juegos que se van a ver en este proyecto son:
@@ -13,7 +13,7 @@ Los juegos que se van a ver en este proyecto son:
 - Tic tac toe.
 ### Juego 1 - PIEDRA, PAPEL O TIJERA 🪨📃✂️
 
-¡Bienvenido al juego clásico de Piedra, Papel o Tijera! En este juego podrás enfrentarte contra el contrincante virtual. El primero en ganar 3 rondas será el vencedor. ¡Vamos a divertirnos!
+¡Bienvenid@ al juego clásico de Piedra, Papel o Tijera! En este juego podrás enfrentarte contra el contrincante virtual. El primero en ganar 3 rondas será el vencedor. ¡Vamos a divertirnos!
 
 Las reglas del juego son:
 - Piedra 🪨 vence a Tijera ✂️
@@ -104,12 +104,57 @@ Maria - 2 || Pepe - 0
   - Implementar una modilidad multi-jugador
   - Agregar una opción para jugar múltiples partidos. 
 
-### Reglas del juego 2 - AHORCADO
-- Un jugador elige una palabra secreta y dibuja un espacio para cada letra de la palabra.
-- El otro jugador intenta adivinar letras para completar la palabra.
-- Si el jugador adivinador adivina una letra correctamente, se revela en su lugar correspondiente.
-- Si el jugador adivinador adivina incorrectamente, se dibuja una parte del cuerpo en la horca.
-- El objetivo del jugador adivinador es adivinar la palabra antes de que se dibuje el dibujo completo en la horca.
+### Juego 2 - AHORCADO 🔤📝
+
+¡Bienvenid@ al juego clásico del Ahorcado! Pon a prueba tu ingenio mientras intentas adivinar la palabra secreta antes de que se agoten tus intentos para adivinar las letras de esa palabra. Dispones de hasta 6 oportunidades para equivocarte.
+
+Con cada error, se dibuja una parte del cuerpo del pobre muñequito en la horca. Si logras completar la palabra a tiempo, ¡serás el héroe que lo salva! Pero si no lo consigues... bueno, ya sabes: ☠️🪓
+
+Ten estas reglas en cuenta:
+
+- Solo puedes ingresar una letra a la vez.
+- Letras repetidas no afectarán tus intentos, pero recibirás un aviso.
+
+#### ⚡Como jugar:
+
+1. El juego comienza pidiéndote que introduzcas tu nombre. Si no lo haces, se te asignará el nombre predeterminado "Jugador Anónimo".
+
+2. Recibirás una palabra secreta que deberás adivinar, la cual estará representada con guiones bajos: _ _ _ _.
+
+3. Adivina una letra escribiéndola y presionando "Enter" en tu teclado. Si la letra está en la palabra, se revelará en su posición correspondiente.
+Si no está, se suma un intento fallido. 
+
+- ⚠️Puedes fallar hasta 6 veces. Después, pierdes y el juego terminará.
+
+- 🎉Si completas la palabra antes de quedarte sin intentos, ¡ganas!
+
+#### Tecnologías
+   - Lenguaje usado: Python
+   - Módulo estándar random (incluido en Python).
+   - Entorno usado: Visual Studio Code
+   - Github Repositories
+   - Git Project
+   - Consultas a fuentes en internet
+   - Dibujos preprados para las fases del desarrollo del muñequito en la horca (Fuente: ChatGPT)
+
+#### Características
+  - Funcionalidad para personalizar el nombre del jugador
+  - Mensajes interactivos y uso de emoticonos para crear una experiencia divertida
+  - Verificación de entradas inválidas: Si el jugador introduce un número, símbolo o más de una letra (la primera línea del código a continuación), se ejecutará este código:
+
+  ```
+  letra = input("Adivina una letra: ").strip().lower()
+  
+  if len(letra) != 1 or not letra.isalpha():
+        print("\n\nUps, ¡solo se puede introducir una letra!, inténtalo de nuevo 🔃.")
+```
+
+  #### Posibles mejoras
+  - Agregar una opción para jugar múltiples partidos. 
+  - Implemenar el uso de PyDictionary para generar la palabra secreta en lugar de difinir la lista en el programa. 
+
+
+
 ### Reglas del juego 3 - PREGUNTAS Y RESPUESTAS
 - El juego consiste en hacer preguntas de geografía y que el jugador adivine la respuesta correcta.
 - Cada pregunta tiene una respuesta única y correcta.
