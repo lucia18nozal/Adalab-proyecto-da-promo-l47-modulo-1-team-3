@@ -1,24 +1,24 @@
-# Adalab-proyecto-da-promo-xyz-modulo-1-team-3
+# Adalab-proyecto-da-promo-l47-modulo-1-team-3
 ## Primer proyecto. Módulo1. Juegos clásicos.
 Las componentes del equipo, y por tanto autoras de estos juegos son:
 - Carlota Gómez Martínez.
 - Katherine Gortz Rogers.
-- Tahiera Jafari.-
+- Tahiera Jafari.
 - Lucía Nozal Benito.
 
 Los juegos que se van a ver en este proyecto son:
 - Piedra, papel o tijera.
 - Ahorcado.
 - Preguntas y respuestas teniedno con temática la geografía.
-- Tic tac toe.
+
 ### Juego 1 - PIEDRA, PAPEL O TIJERA 🪨📃✂️
 
 ¡Bienvenid@ al juego clásico de Piedra, Papel o Tijera! En este juego podrás enfrentarte contra el contrincante virtual. El primero en ganar 3 rondas será el vencedor. ¡Vamos a divertirnos!
 
 Las reglas del juego son:
-- Piedra 🪨 vence a Tijera ✂️
-- Tijera ✂️ vence a Papel 📃
-- Papel 📃 vence a Piedra 🪨
+- Piedra 🪨 vence a Tijera ✂️.
+- Tijera ✂️ vence a Papel 📃.
+- Papel 📃 vence a Piedra 🪨.
 - Si ambos eligen lo mismo, es un empate.
 - El jugador que gana una ronda obtiene un punto.
 - El juego continúa hasta que un jugador haya acumulado 3 puntos, convirtiéndose en el ganador.
@@ -29,9 +29,9 @@ Las reglas del juego son:
 
 2. En cada ronda, deberás elegir entre tres opciones:
 
-  - Piedra 🪨
-  - Papel 📃
-  - Tijera ✂️
+  - Piedra 🪨.
+  - Papel 📃.
+  - Tijera ✂️.
 
   - OJO: El programa verifica que la palabra indicada por el jugador sea una de las tres opciones válidas:
 ```
@@ -49,10 +49,10 @@ if seleccion_humano not in elementos_validos:
 3. Tu contrincante virtual elegirá aleatoriamente entre las mismas tres opciones.
 
 4. El programa se compararán las jugadas según las reglas del juego:
-         Piedra gana a Tijera
-         Tijera gana a Papel
-         Papel gana a Piedra
-         Si ambos eligen igual, es un empate
+         Piedra gana a Tijera.
+         Tijera gana a Papel.
+         Papel gana a Piedra.
+         Si ambos eligen igual, es un empate.
 
 5. El ganador de la ronda obtiene un punto. El juego continuará hasta que uno de los jugadores gane 3 rondas. 
 
@@ -87,21 +87,21 @@ Maria - 2 || Pepe - 0
 ```
 
 #### Tecnologías
-   - Lenguaje usado: Python
+   - Lenguaje usado: Python.
    - Módulo estándar random (incluido en Python).
-   - Entorno usado: Visual Studio Code
-   - Github Repositories
-   - Git Project
-   - Consultas a fuentes en internet 
+   - Entorno usado: Visual Studio Code.
+   - Github Repositories.
+   - Git Project.
+   - Consultas a fuentes en internet.
 
 #### Características
-  - Funcionalidad para personalizar el nombre del jugador
-  - Verificación de entradas inválidas
-  - Mensajes interactivos y uso de emoticonos para crear una experiencia divertida
-  - Sistema dinámica de acumulación de puntos
+  - Funcionalidad para personalizar el nombre del jugador.
+  - Verificación de entradas inválidas.
+  - Mensajes interactivos y uso de emoticonos para crear una experiencia divertida.
+  - Sistema dinámica de acumulación de puntos.
 
   #### Posibles mejoras
-  - Implementar una modilidad multi-jugador
+  - Implementar una modilidad multi-jugador.
   - Agregar una opción para jugar múltiples partidos. 
 
 ### Juego 2 - AHORCADO 🔤📝
@@ -129,17 +129,17 @@ Si no está, se suma un intento fallido.
 - 🎉Si completas la palabra antes de quedarte sin intentos, ¡ganas!
 
 #### Tecnologías
-   - Lenguaje usado: Python
+   - Lenguaje usado: Python.
    - Módulo estándar random (incluido en Python).
-   - Entorno usado: Visual Studio Code
-   - Github Repositories
-   - Git Project
-   - Consultas a fuentes en internet
-   - Dibujos preprados para las fases del desarrollo del muñequito en la horca (Fuente: ChatGPT)
+   - Entorno usado: Visual Studio Code.
+   - Github Repositories.
+   - Git Project.
+   - Consultas a fuentes en internet.
+   - Dibujos preprados para las fases del desarrollo del muñequito en la horca (Fuente: ChatGPT).
 
 #### Características
-  - Funcionalidad para personalizar el nombre del jugador
-  - Mensajes interactivos y uso de emoticonos para crear una experiencia divertida
+  - Funcionalidad para personalizar el nombre del jugador.
+  - Mensajes interactivos y uso de emoticonos para crear una experiencia divertida.
   - Verificación de entradas inválidas: Si el jugador introduce un número, símbolo o más de una letra (la primera línea del código a continuación), se ejecutará este código:
 
   ```
@@ -189,17 +189,17 @@ Respuesta correcta: Ebro.
 Respuesta correcta: Francia.
 
 #### Tecnologías
-   - Lenguaje usado: Python
+   - Lenguaje usado: Python.
    - Módulo estándar random (incluido en Python).
-   - Módulo estándar unicodedata (incluido en Python.)
-   - Entorno usado: Visual Studio Code
-   - Github Repositories
-   - Git Project
-   - Consultas a fuentes en internet
+   - Módulo estándar unicodedata (incluido en Python).
+   - Entorno usado: Visual Studio Code.
+   - Github Repositories.
+   - Git Project.
+   - Consultas a fuentes en internet.
  
 #### Características
-  - Funcionalidad para personalizar el nombre del jugador
-  - Mensajes interactivos y uso de emoticonos para crear una experiencia divertida
+  - Funcionalidad para personalizar el nombre del jugador.
+  - Mensajes interactivos y uso de emoticonos para crear una experiencia divertida.GIT
   - Las preguntas son seleccionadas al azar de un conjunto de preguntas preparadas, y no se repiten hasta que todas hayan sido respondidas.
   - Uso de la función normalize del módulo unicodedata para "normalizar" la respuesta de cada pregunta cadena de texto para facilitar las comparaciones entre cadenas sin preocuparse por los tildes.
 
@@ -236,15 +236,5 @@ print(comparar_palabras(respuesta_jugador, respuesta_correcta))  # Salida espera
 
 
   #### Posibles mejoras
-  - Agregar una opción para jugar múltiples partidos sin reiniciar el juego o de competir entre múltiples jugadores
+  - Agregar una opción para jugar múltiples partidos sin reiniciar el juego o de competir entre múltiples jugadores.
   - Ampliar el banco de preguntas. 
-
-
-
-### Reglas del juego 4 - TIC, TAC, TOE
-- El juego se juega en un tablero de 3x3.
-- Dos jugadores, uno representa "X" y el otro "O", alternan turnos.
-- El objetivo es obtener tres símbolos del mismo tipo en línea horizontal, vertical o diagonal.
-- El juego termina cuando un jugador gana o el tablero se llena (empate).
-- El jugador que logre colocar tres de sus símbolos en línea es el ganador.
-tecnologías usadas, como jugar, mejoras, como está hecho
