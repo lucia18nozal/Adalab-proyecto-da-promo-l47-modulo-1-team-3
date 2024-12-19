@@ -108,7 +108,7 @@ Maria - 2 || Pepe - 0
 
 ¡Bienvenid@ al juego clásico del Ahorcado! Pon a prueba tu ingenio mientras intentas adivinar la palabra secreta antes de que se agoten tus intentos para adivinar las letras de esa palabra. Dispones de hasta 6 oportunidades para equivocarte.
 
-Con cada error, se dibuja una parte del cuerpo del pobre muñequito en la horca. Si logras completar la palabra a tiempo, ¡serás el héroe que lo salva! Pero si no lo consigues... bueno, ya sabes: ☠️🪓
+Con cada error, se dibuja una parte del cuerpo del pobre muñequito en la horca. Si logras completar la palabra a tiempo, ¡serás el héroe que lo salva! Pero si no lo consigues... bueno, ya sabes: ☠️🪓.
 
 Ten estas reglas en cuenta:
 
@@ -199,7 +199,7 @@ Respuesta correcta: Francia.
  
 #### Características
   - Funcionalidad para personalizar el nombre del jugador.
-  - Mensajes interactivos y uso de emoticonos para crear una experiencia divertida.GIT
+  - Mensajes interactivos y uso de emoticonos para crear una experiencia divertida.
   - Las preguntas son seleccionadas al azar de un conjunto de preguntas preparadas, y no se repiten hasta que todas hayan sido respondidas.
   - Uso de la función normalize del módulo unicodedata para "normalizar" la respuesta de cada pregunta cadena de texto para facilitar las comparaciones entre cadenas sin preocuparse por los tildes.
 
