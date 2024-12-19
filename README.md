@@ -9,7 +9,7 @@ Las componentes del equipo, y por tanto autoras de estos juegos son:
 Los juegos que se van a ver en este proyecto son:
 - Piedra, papel o tijera.
 - Ahorcado.
-- Preguntas y respuestas teniedno con temática la geografía.
+- Preguntas y respuestas relacionadas con la temática de la geografía.
 
 ### Juego 1 - PIEDRA, PAPEL O TIJERA 🪨📃✂️
 
